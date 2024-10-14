@@ -1,0 +1,285 @@
+/*-----------------------------------------------------------------------------------
+
+    CSS Name: indexo MX
+    Template URI: https://indexo.mx
+    Description: indexo
+    Author: Chucho Vergara
+    Author URI: https://chuchovergara.com
+
+-----------------------------------------------------------------------------------*/
+@import url("//hello.myfonts.net/count/3b762c");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap');
+@font-face {font-family: 'Eina01-Bold';src: url('../fonts/Eina01-Bold/font.woff2') format('woff2'), url('../fonts/Eina01-Bold/font.woff') format('woff')}
+/* General */
+::selection{background-color: #3880ff;color:#fff}
+body{margin: 0}
+body,.mainmenu nav ul li a {font-family: Inter, sans-serif}
+h1, h2, h3, h4, h5, h6 {font-family: Eina01-Bold, sans-serif}
+.blog-details h1{font-size: 50px}
+.blog-details h2{font-size: 35px}
+.py-140{padding: 140px 0}
+.py-100{padding: 100px 0}
+.py-120{padding: 120px 0}
+.highlight {position: relative;background: 0 0}
+.highlight::before {content: '';background: #d1ebff;position: absolute;left: 0;right: -2px;bottom: 8px;height: 16px;z-index: -1}
+.pricing-table-single.highlight::before {position: unset}
+.dots-v::before,.dots-h::before{content: '';display: block;position: absolute;width: 100%;height: 100%;z-index: -1;left: 50%;top: 50%;-webkit-transform: translate(-50%,-50%);-ms-transform: translate(-50%,-50%);transform: translate(-50%,-50%)}
+.dots-v::before{background: url(/web/svg/dots-v.svg) no-repeat top left/cover}
+.dots-h::before{background: url(/web/svg/dots-h.svg) no-repeat top left/cover}
+.cta-inner{box-shadow: 0 15px 45px rgb(123 104 238 / 60%)}
+.brands-area{background: url(https://clickup.com/images/join-companies/bg__with-dotted.svg) no-repeat center/auto}
+.special-action-blank, .special-action{cursor: pointer}
+.text-blue{color:#3880ff}
+b, strong{color:#424242}
+.blog-details h3,.blog-details h4,.blog-details h5,.blog-details h6{color:#8b9094}
+.form-control option {color: #79757d}
+.cta-btn .btn-common:hover {background-color: #EBAC26}
+/* Logo */
+.logo.logo-hand{width: 30px;max-height: 40px;;margin-left: 2px}
+.logo.logo-text{width: 110px;max-height: 40px}
+.logo-blue{fill:#3880ff}
+.logo-gray{fill:#424242}
+.logo-white{fill:#ffffff}
+/* Menu */
+.navbar-nav .nav-item{padding: 0 10px}
+.navbar-nav .nav-link{color: #424242!important;padding: 10px 0!important}
+.navbar-nav .nav-link.active{color: #3880ff!important}
+.navbar-light .navbar-toggler{border-color: transparent}
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {display: block}
+.navbar-nav .nav-item.dropdown .nav-link::after {content: none}
+button:focus {outline: none}
+.dropdown-item {font-weight: inherit}
+.dropdown-item:focus, .dropdown-item:hover{color: #ffffff;background-color: #3880ff}
+.dropdown-item:focus i, .dropdown-item:hover i {color: #ffffff!important}
+.dropdown-menu {top: 90%}
+.dropdown-item.active i{color: #ffffff !important;}
+.w-50{width: 50%}
+.w-70{width: 70%}
+#WhatsApp{position: fixed;z-index: 99;bottom: 28px;right: 83px;width: 45px;line-height: 46px;border-radius: 3px;padding: 0 7px;background-color: #25d366}
+#WhatsApp:hover{background-color: rgb(16, 57, 40)}
+#mobile-phone{position: fixed;z-index: 99;bottom: 25px;left: 26px;background-color: #fff}
+#mobile-phone:hover{background-color: #3880ff}
+#scrollUp{bottom: 130px}
+/* Sub Menu */
+#sub-menu{background-color: #f3f8f8;box-shadow: inset 0 8px 10px #e8e8e8}
+/* Header */
+#sticker {top: 0;position: fixed;width: 100%;z-index: 100;background-color: #fff;border-bottom:0;padding: 15px 0}
+.stick, .header-bottom.with-shadow.stick {-webkit-box-shadow: 0 0 30px 1px rgba(0, 0, 0, 0.2);box-shadow: 0 0 30px 1px rgba(0, 0, 0, 0.2);-webkit-animation: 900ms cubic-bezier(0.2, 1, 0.22, 1) 0s normal none 1 running fadeInDown;animation: 900ms cubic-bezier(0.2, 1, 0.22, 1) 0s normal none 1 running fadeInDown}
+.header-bottom.stick, .header-bottom.with-shadow.stick {background-color:#fff;z-index: 99}
+/* Cookies */
+.cookies-area{position: fixed;left: 0; right: 0;bottom: 0;z-index: 10}
+.cookies-inner{background: #ffffff;box-shadow: 0 15px 45px rgb(66 66 66 / 60%);padding: 30px;}
+.cookies-btn .btn-common{border-radius: 50px;box-shadow: 6px 10.392px 27px 0 rgba(251,92,113,.2)}
+/* Home */
+svg{width: 100%}
+.svg-gray-0 {fill:#F4F4F4;fill-rule:nonzero}
+.svg-gray-1 {fill:#DFDFDF}
+.svg-gray-2 {fill:#EBEBEB}
+.svg-gray-3 {fill:#F9F9F9;fill-rule:nonzero}
+.svg-gray-5 {fill:#EB996E;fill-rule:nonzero}
+.svg-gray-7 {fill:#FEFEFE;fill-rule:nonzero}
+.svg-gray-42 {fill:#424242;fill-rule:nonzero}
+.svg-lines {fill:#445964;fill-rule:nonzero}
+.svg-dark-hair {fill:#263138;fill-rule:nonzero}
+.svg-clear-hair {fill:#8a5c4c;fill-rule:nonzero}
+.svg-dark {fill:#263138;fill-rule:nonzero}
+.svg-skin {fill:#FFBD9C;fill-rule:nonzero}
+.svg-skin-2 {fill:#BC8C83;fill-rule:nonzero}
+.svg-blue {fill:#3880FF}
+.svg-red{fill:#DC3545;fill-rule:nonzero}
+.svg-white {fill:#fff}
+.svg-white-transparent-3 {fill:white;fill-rule:nonzero;fill-opacity:0.301961}
+.svg-white-transparent-6 {fill:white;fill-rule:nonzero;fill-opacity:0.600000}
+.svg-white-transparent-8 {fill:white;fill-rule:nonzero;fill-opacity:0.800000}
+.svg-shadow {fill:#000;fill-rule:nonzero;fill-opacity:0.200000}
+.svg-google-green {fill:#34A853}
+.svg-google-blue {fill:#4184F3}
+.svg-google-red {fill:#EA4335}
+.svg-google-yellow {fill:#FABC05}
+.google{width: 75px;margin-top: -75px;position: relative}
+.testimonial-single {padding: 25px}
+.testimonial-name h5 {font-size: 18px}
+.testimonial-desc p {font-size: 16px;margin-top: 10px}
+/* 404 */
+#svg-404{width: 70%}
+/* Pages */
+.banner-caption h1#alt-h1{font-size: 1.125rem;line-height: 22px;margin-bottom: 0}
+.banner-caption h2#alt-h2{font-size: 5.125rem}
+.banner-caption h1 small{font-size: 60%}
+.banner-caption h1 br{display: block;content: " ";margin-top: -25px}
+#alt-h1 br{content: initial; margin-top: initial}
+.page-title-area{margin-top:96px}
+.services-nav li{}
+.services-nav li a {font-size: 14px;color: #424242;display: inline-block;position: relative;padding: 0 10px}
+.services-nav .nav-item a.active{color: #3880FF;}
+/* Pricing tables */
+.list-sign li.unstyled::before{content: none}
+/* Hover effects */
+.process-single span{opacity: .7}
+.service-single.style-3{padding: 20px}
+.service-single.style-3 h4, .team-single, .process-single, .process-single i, .process-single span, .single-job, .landing-button, .landing-button img,.landing-button b,.answer-collapse, .landing .collapse{transition: all .4s ease}
+.service-single.style-3:hover, .team-single:hover, .process-single:hover, .single-job:hover {box-shadow: 3.9px 17.5px 72px -21px rgba(66, 66, 66, 0.5)}
+.service-single.style-3:hover h4,.team-single:hover h5, .process-single:hover i, .process-single:hover span, .single-job:hover h5 a{color: #EBAC26}
+/*Home*/
+.service-single.style-3{padding: 20px}
+/* About */
+#about.banner-area{background-image: url('/web/svg/cover-hands-full.svg');background-repeat: no-repeat;background-position: center center;background-size: 100%}
+#about #logo-letters{width: 50%}
+.team-details .social-icons.style-2 .fa-globe{background-color: #212f36;border-color: #212f36}
+/* SEO */
+.portfolio-seo{min-height: 434px}
+.video-area.bg-primary{background: rgba(0, 0, 0, 0) url(/web/webp/googleseo.webp) repeat scroll center center / cover}
+/* Dev */
+.counter-single span,.counter-single i{font-size: 35px}
+/* Call Tracking */
+#calls{font-size: 14px;width: 100%;border-collapse: collapse;color: white}
+#calls th {background-color: #263138}
+.desktop-frame {background-color: #445964;border: 1px solid #ccc;border-radius: 10px;box-shadow: 5px 9px 43px 0 rgba(98,143,144,.15);margin: 0 auto;padding: 20px}
+.table-container {background-color: #263138;border-radius: 5px;min-height: 250px}
+.browser-window {background: #fff;border: 1px solid #ccc;border-radius: 5px;padding: 0;overflow: hidden;position: relative}
+.browser-header {background: linear-gradient(to bottom, #eaeaea, #d6d5d6);color: white;padding: 5px;display: flex;justify-content: space-between;align-items: center}
+.browser-buttons {display: flex;gap: 5px}
+.browser-button {width: 15px;height: 15px;border-radius: 50%;background-color: #ccc;cursor: pointer}
+.browser-button.minimize {background-color: #fcbd2e}
+.browser-button.maximize {background-color: #30ca41}
+.browser-button.close {background-color: #fa6058}
+.desktop-brand{background: #263138;width: 25px;height: 25px;margin: 15px auto 0;border-radius: 50%}
+/* Quote */
+.single-job .card-header:hover{background-color: #f3f8f8;}
+.cart-quantity-changer {width: 177px}
+.single-job .card-header h5 a {padding: 30px 0;width: 100%}
+.job-type {float: right}
+/* Footer */
+.footer-logo{margin-bottom: 35px}
+/* Color */
+.cta-inner{background: linear-gradient(270deg,#6eb1ff 0,#3880ff 100%)}
+.btn-common.br-type i{color:#3880FF}
+.btn-common.br-type:hover i{color:#fff}
+.bg-gray-42{ background-color: #424242}
+/* Buttons */
+.btn-common,.btn-common-2{font-size: 15px;box-shadow: 0 5px 15px rgb(16 30 54 / 15%)}
+.btn-common-2{background-color: #EBAC26!important;}
+.btn-common-2:hover{background-color: #EB9326!important;}
+.btn-common-white{background-color: #ffffff;font-family: Inter,sans-serif;font-size: 15px;font-weight: 700;color: #3880ff;padding: 0 20px;min-width: 180px;height: 50px;line-height: 48px;text-align: center;cursor: pointer;display: inline-block;transition: .3s;border-radius: 50px;box-shadow: 0 5px 15px rgb(16 30 54 / 15%)}
+.btn-progress{background-color: transparent;border: 2px solid #EBAC26 !important;color: #EBAC26}
+.btn-progress:hover{background-color: #EBAC26;border: 2px solid #EBAC26 !important;color: #fff}
+.btn-progress.disabled,.btn-progress:hover.disabled,.btn-progress:focus.disabled{background-color: transparent;border: 2px solid #e4e3e3 !important;color: #e4e3e3}
+/* Landing */
+#logo-landing #text{width: 283px}
+#logo-landing #hand{width: 91px}
+.landing-button{background-color: #fff;border-radius: 10px;border: none;padding-inline: 0}
+.landing-button b{color: #222;position: relative;display: inline-block;line-height: 1;word-break: break-word}
+.landing-button:hover{margin-top: -20px}
+.landing-button:hover b{color: #EBAC26}
+.landing-button.selected{background-color: #EBAC26}
+.landing-button.selected b{color: #222}
+.landing-button img{max-width: 100%;height: auto}
+.indexo-shadow{box-shadow: 5.5px 9.526px 43px 0 rgba(98, 143, 144, .15)}
+.indexo-shadow:hover{box-shadow: 3.9px 17.5px 72px -21px rgba(66, 66, 66, 0.5)}
+.answer-collapse{border: 1px solid #ebebeb;background-color: #fff;border-radius: .25rem;padding: 0 30px;margin-top: 20px}
+.answer-collapse p{margin-bottom: 0;display: flex;align-items: center;height: 70px;line-height: 20px}
+.disabled{}
+#progress{position: fixed;bottom: 0;left: 0;right: 0;background: #ffffff}
+/* Forms */
+.custom-control-label::before,.custom-control-label::after{top: 0.47em}
+/* Google reCaptcha */
+.grecaptcha-badge{z-index: 99;bottom: 60px!important;}
+/* Blog single */
+.blog-banner-area.overlay::before{background-color: rgb(66 66 66 / 42%)}
+.blog-category li a {background-color: #3880FF;font-size: 12px;text-transform: uppercase;padding: 5px 20px;color: #ffffff;border-radius: 2px;font-weight: 700}
+.blog-date-time li {color: #c4c4c4;font-size: 12px;text-transform: uppercase}
+.blog-date-time li i {color: #3880FF;margin-right: 5px}
+.blog-details img{box-shadow: 0 15px 30px #ebebeb}
+/* Portfolio */
+.blog-single.style-2 .blog-desc {padding: 31px 25px 23px}
+.blog-single.style-2 .blog-category li {color: #3880ff;background-color: transparent;border-radius: 0;padding: 0;font-size: 13px}
+.portfolio-title h1{font-size: 50px; display: block}
+.portfolio-title h2{font-size: 25px}
+.blog-desc h3{font-size: 18px}
+.blog-desc h4{font-size: 14px; line-height: 10px}
+.blog-thumb img{ border: none}
+/* Calendly */
+.calendly-inline-widget{height: 1000px}
+/* 1800px. */
+/* Verification logos*/
+.google-logo{max-height:50px}
+.google-logo,.designrush-logo,.yelp-logo,.clutch-logo{width: 50%}
+@media (max-width: 1800px){
+    #about.banner-area{background-position: 72% 158%;background-size: 62%}
+    #about #logo-letters{width: 30%}
+}
+/* 1400px. */
+@media (max-width: 1400px){
+    #about.banner-area{ background-position: 90% 155%;background-size: 75%}
+}
+/* 1200px. */
+@media (min-width: 1200px){
+    .banner-image{ margin-top: 1.5rem}
+    .container {max-width: 1054px}
+    .banner-caption h1{font-size: 77px}
+}
+/* 1199px. */
+@media (max-width: 1199px) {
+    #about.banner-area{background-position: 300% -159%;background-size: 95%}
+    .banner-image{ margin-top:0.8rem}
+}
+
+/* 1024px. */
+@media (max-width: 1024px) {
+    .banner-image{ margin-top:0.8rem}
+    .banner-caption h1 {font-size: 70px}
+    .section-title h2 {font-size: 45px}
+}
+/* 991px. */
+@media (max-width: 991px){
+    #phone-menu{display: none}
+    .contact-form.style-1{padding: 40px}
+}
+/* 768px. */
+@media (min-width: 768px) {
+    .testimonial-single {min-height: 152px}
+}
+@media (max-width: 768px) {
+    #calls{font-size: 11px;line-height: 14px}
+    #calls th, #calls td{padding: 12px 5px}
+    .desktop-frame {width: 100%;padding:15px}
+    .browser-header{padding: 4px}
+    .browser-button{width: 10px;height: 10px}
+    .call-status{display: none}
+}
+/* 450px. */
+@media (max-width: 450px) {
+    #about.banner-area{background-position: 1% 59%;background-size: 134%}
+    .dropdown-menu {border: none}
+    .navbar-nav .nav-link {padding: 5px 0!important}
+    .banner-caption h2#alt-h2{font-size: 4.125rem}
+    .banner-caption h1 {font-size: 35px;line-height: 1}
+    .section-title h2{font-size: 39px;word-break: inherit}
+    .landing .section-title h3{font-size: 21px;line-height: 28px;margin-bottom: 0}
+    #intro h2{font-size: 31px;line-height: 37px}
+    .service-details-area h2{font-size: 39px;line-height: 45px}
+    .single-job .card-header {padding: 0 25px}
+    .single-job .card-header h5 a {font-size: 18px}
+    .slick-dots {display: none!important}
+    .brands-carousel .slick-slide img {padding: 0 10px}
+    .consulting-hl::before{left: -212px;right: 118px}
+    .seo-hl::before{left: -179px;right: 93px}
+    .web-hl::before{left: -254px;right: 16px}
+    .mkt-hl::before{left: -232px;right: 37px}
+    .testimonial-single{margin-top: 18px}
+    #progress .btn-common{min-width: 100%;font-weight: 400}
+    .answer-collapse{padding: 0 15px}
+    .answer-collapse p{font-size: 16px}
+    #logo-landing #text{width: 240px}
+    #logo-landing #hand{width: 65px}
+    .landing .section-title p{}
+    .landing .section-title p br{display: initial}
+    .landing-button:hover {margin-top: 0}
+    .landing-button b{font-size: 15px}
+    .landing-button img{max-width: 80%}
+    #cookie-consent p{font-size: 15px;line-height: 20px}
+    #logo-letters{/*scale: 2*/}
+    #pulque-404{scale: 2}
+    .google-logo,.designrush-logo,.yelp-logo,.clutch-logo{width: 100%}
+    .banner-caption h1 br{margin-top: 10px}
+}
