@@ -130,7 +130,7 @@
 @endsection
 
 @section('script')
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7XWCUV0bPSBM9L1dWXeu1K90l3xUIL_g"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key="></script>
     <script>
         (function ($) {
             "use strict";
